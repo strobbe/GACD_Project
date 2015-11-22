@@ -73,7 +73,10 @@ tidy_data <- raw_data %>%
   select(-act_id) %>%
   group_by(subject, activity) %>%
   summarize_each(funs(mean))
+
 message(" Done.")
 
 ## Last clean-up, leaving only our tidy data set.
 rm(subs, acts, meas, measnames, act_labels)
+
+print(tidy_data)

@@ -31,7 +31,7 @@ Please see the README.md file for a more detailed description.
 The resulting tidy data set is 180 observations of 68 variables (subject, activity, and 66 acceleromoter readings).
 
 ##Variables
-
+```
 subject
 activity
 TimeBodyAcceleratorMeanX
@@ -100,3 +100,4 @@ FreqBodyAcceleratorMagnitudeStd
 FreqBodyAcceleratorJerkMagnitudeStd
 FreqBodyGyroscopeMagnitudeStd
 FreqBodyGyroscopeJerkMagnitudeStd
+```

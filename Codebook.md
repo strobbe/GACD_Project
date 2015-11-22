@@ -30,7 +30,11 @@ Please see the README.md file for a more detailed description.
 ##Description of the variables in the tidy_data.txt file
 The resulting tidy data set is 180 observations of 68 variables (subject, activity, and 66 acceleromoter readings).
 
-##Variables
+##Variables / Units
+The first two variables, subject and activity, are factors. Subject identifies the 30 subjects that participated. Activity identifies the six activities that were performed during the experiment: Walking, Walking Upstairs, Walking Downstairs, Sitting, Standing, and Laying.
+
+The remaining variables describe the accelerometer measurements read from the participants' smartphones. Those containing "accelerator" are measured in gravity units. Those containing "Gyroscope" are measured in rad/seq.
+
 ```
 subject
 activity
